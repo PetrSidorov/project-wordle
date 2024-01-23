@@ -1,9 +1,9 @@
 import React from "react";
 import { range } from "../../utils";
-const initial = { value: ["", "", "", "", ""] };
+// const initial = { value: ["", "", "", "", ""] };
 function Guess({ word }) {
-  console.log(word);
   return (
+    // <div></div>
     <p className="guess">
       {range(5).map((pos, i) => {
         return (
